@@ -10,7 +10,6 @@ With Lazy.nvim:
 {
     "rangoons/mattock",
     event = "VeryLazy", -- Or `LspAttach`
-    priority = 1000, -- needs to be loaded in first
     config = function()
         require('mattock').setup()
     end
